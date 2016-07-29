@@ -90,6 +90,10 @@ namespace PoGo.NecroBot.Logic
         string ProfileConfigPath { get; }
         string GeneralConfigPath { get; }
         bool SnipeAtPokestops { get; }
+        string SnipeLocationServer { get; }
+        int SnipeLocationServerPort { get; }
+        bool UseSnipeLocationServer { get; }
+        int MinDelayBetweenSnipes { get; }
 
         ICollection<KeyValuePair<ItemId, int>> ItemRecycleFilter { get; }
 
